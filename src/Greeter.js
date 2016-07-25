@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react';
 import config from './config.json';
 
-class Greeter extends Component{
+class Greeter extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class Greeter extends Component{
   }
 }
 
-export default Greeter
+export default Greeter;
