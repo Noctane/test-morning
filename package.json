@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "node_modules/.bin/webpack-dev-server --progress"
   },
   "keywords": [],
   "author": "",
