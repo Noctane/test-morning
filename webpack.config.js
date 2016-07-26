@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   devtool: 'eval-source-map',
   entry:  __dirname + '/src/main.js',
@@ -17,9 +19,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'style!css'
+        loader: 'style!css?modules'
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass']
       }
     ]
+  },
+  sassLoader: {
+    includePaths: [path.resolve(__dirname, './src/assets/sass')]
   },
   devServer: {
     contentBase: './public',
