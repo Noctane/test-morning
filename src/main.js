@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Greeter from './greeter/Greeter';
+import App from './app/App';
 
 import './main.css';
 
-render(<Greeter />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));

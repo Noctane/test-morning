@@ -4,7 +4,7 @@ import styles from './Greeter.css';
 
 const Greeter = () =>
   <div className={styles.root}>
-    {config.greetText}
+    {config.server}
   </div>;
 
 export default Greeter;

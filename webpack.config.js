@@ -1,4 +1,5 @@
 const path = require('path');
+const config = require('./src/config.js');
 
 module.exports = {
   devtool: 'eval-source-map',
@@ -34,6 +35,7 @@ module.exports = {
     contentBase: './public',
     colors: true,
     historyApiFallback: true,
-    inline: true
+    inline: true,
+    port:2323
   }
 };
