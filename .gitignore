@@ -4,3 +4,6 @@ lib/
 *.sql
 *.log
 src/config.js
+jsconfig.json
+.vscode/
+*.log

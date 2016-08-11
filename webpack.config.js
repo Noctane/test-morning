@@ -36,6 +36,6 @@ module.exports = {
     colors: true,
     historyApiFallback: true,
     inline: true,
-    port:2323
+    port: config.app.server.port
   }
 };

@@ -22,32 +22,6 @@ module.exports = {
         server: {
             url: 'http://localhost',
             port: 8080
-        },
-        breakpoints: {
-            xs: 362,
-            s: 600,
-            m: 992,
-            l: 993,
-            xl: 1170
-        },
-        meta: {
-            charSet: 'utf-8',
-            property: {
-                'og:site_name': pkg.name,
-                'og:image': `http://${pkg.name}.fr`,
-                'og:locale': 'fr_FR',
-                'og:title': pkg.name,
-                'og:description': 'All the modern best practices in one pancake.',
-                'twitter:card': 'summary',
-                'twitter:site': '@ArzurUgo',
-                'twitter:creator': '@ArzurUgo',
-                'twitter:title': pkg.name,
-                'twitter:description': 'All the modern best practices in one pancake.',
-                'twitter:image': `http://${pkg.name}.fr`,
-                'twitter:image:width': '200',
-                'twitter:image:height': '200'
-            },
-            title: 'I really like pancakes in one page',
         }
     }
 }
