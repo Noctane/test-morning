@@ -8,8 +8,10 @@ git clone https://github.com/Ugarz/BasicWebpackServer.git
 cd BasicWebpackServer
 npm i && npm start
 ```
-~You can co to [http://localhost:2323/](http://localhost:2323/) to check what's happening. You should open the chrome console (pressing `cmd + alt + i` on mac).~
-Now configuration of project is exported.
+You can co to [http://localhost:2323/](http://localhost:2323/) to check what's happening. You should open the chrome console (pressing `cmd + alt + i` on mac).
+
+Now configuration of project is exported :
+Add this to `src/config.js`
 ```js
 const pkg = require('../package.json');
 module.exports = {
