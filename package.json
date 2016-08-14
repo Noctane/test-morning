@@ -2,9 +2,9 @@
   "name": "automatic-waffle",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "src/client.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --hot --progress",
+    "start": "node_modules/.bin/webpack-dev-server --hot --progress --colors",
     "createEslintRc": "node_modules/.bin/eslint — init"
   },
   "keywords": [],
