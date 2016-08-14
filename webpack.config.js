@@ -3,7 +3,7 @@ const config = require('./src/config.js');
 
 module.exports = {
   devtool: 'eval-source-map',
-  entry: `${__dirname}/src/main.js`,
+  entry: `${__dirname}/src/client.js`,
   output: {
     path: `${__dirname}/public`,
     filename: 'bundle.js'
@@ -30,6 +30,10 @@ module.exports = {
   },
   sassLoader: {
     includePaths: [path.resolve(__dirname, './src/assets/sass')]
+  },
+  resolve: {
+    root: path.resolve('./src/components/'),
+    extensions: ['', '.js', '.scss']
   },
   devServer: {
     contentBase: './public',

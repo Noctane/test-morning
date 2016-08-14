@@ -1,9 +1,9 @@
 import React from 'react';
-import config from '../datas.json';
-import styles from './Greeter.css';
+import config from '../../datas.json';
+require ('./greeter.scss');
 
 const Greeter = () =>
-  <div className={styles.root}>
+  <div className="greeter">
     {config.server}
   </div>;
 
