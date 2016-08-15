@@ -35,4 +35,7 @@ module.exports = {
 * ~~Installer Babel pour jouer avec l'ES6~~
 * ~~Installer une validation Eslint avec le styleguide d'Airbnb~~
 * ~~Json-loader pour importer et manipuler le json~~
-* Node-sass et sass-loader pour le scss/sass
+* ~~Permettre de gérer le sass/scss~~
+* Rajouter React-router
+* Gérer le state de l'appli avec Redux
+* Faire un espace de connexion simple (Redis/Mongo ou Mysql)
