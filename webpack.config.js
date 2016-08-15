@@ -32,7 +32,11 @@ module.exports = {
     includePaths: [path.resolve(__dirname, './src/assets/sass')]
   },
   resolve: {
-    root: path.resolve('./src/components/'),
+    modulesDirectories: [
+      path.resolve('src', 'components'),
+      'node_modules',
+      '/Utils'
+    ],
     extensions: ['', '.js', '.scss']
   },
   devServer: {
