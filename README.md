@@ -1,6 +1,6 @@
 [ ![Codeship Status for Ugarz/automatic-waffle](https://codeship.com/projects/afdd4d60-4797-0134-d570-7274acc1ec8c/status?branch=master)](https://codeship.com/projects/169231)
 
-# This is a personnal classic webpack server build to increase time development.
+# This is a personnal classic webpack server build to decrease time development and make waffles instead !
 For personnal purpose
 
 ## Start playing with it
