@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import Greeter from '../greeter/greeter.js';
 require('./home.scss');
 
 export default class Home extends Component {
@@ -16,6 +17,7 @@ export default class Home extends Component {
     return (
       <div ref="home" className="home">
         Home:{this.props.isAuth}
+        <Greeter />
       </div>
     );
   }
