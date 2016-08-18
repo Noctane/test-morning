@@ -1,4 +1,4 @@
-https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master
+[ ![Codeship Status for Ugarz/automatic-waffle](https://codeship.com/projects/afdd4d60-4797-0134-d570-7274acc1ec8c/status?branch=master)](https://codeship.com/projects/169231)
 
 # This is a personnal classic webpack server build to increase time development.
 For personnal purpose
