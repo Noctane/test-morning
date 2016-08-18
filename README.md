@@ -1,3 +1,5 @@
+https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master
+
 # This is a personnal classic webpack server build to increase time development.
 For personnal purpose
 
