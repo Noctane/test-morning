@@ -28,9 +28,6 @@ module.exports = {
       }
     ]
   },
-  sassLoader: {
-    includePaths: [path.resolve(__dirname, './src/assets/sass')]
-  },
   resolve: {
     modulesDirectories: [
       path.resolve('src', 'components'),
