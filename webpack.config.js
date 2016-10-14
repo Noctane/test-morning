@@ -32,7 +32,8 @@ module.exports = {
     modulesDirectories: [
       path.resolve('src', 'components'),
       'node_modules',
-      '/Utils'
+      '/Utils',
+      'src'
     ],
     extensions: ['', '.js', '.scss']
   },

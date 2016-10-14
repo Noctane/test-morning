@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import Greeter from '../greeter/greeter.js';
+import Greeter from './subcomponents/greeter/greeter.js';
 require('./home.scss');
 
 export default class Home extends Component {
@@ -9,9 +9,6 @@ export default class Home extends Component {
   static defaultProps = {
     isAuth: false
   };
-  componentDidMount() {
-    console.log(this.checkElt(this.props));
-  }
   checkElt = (props) => React.isValidElement(props);
   render() {
     return (

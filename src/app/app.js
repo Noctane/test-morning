@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
-import Home from '../home/Home.js';
-import Sidebar from '../sidebar/sidebar.js';
+import Home from './home/home.js';
+import Sidebar from './sidebar/sidebar.js';
 require('./app.scss');
 
 class App extends Component {
@@ -10,9 +10,6 @@ class App extends Component {
   static defaultProps = {
     isAuth: "toto"
   };
-  componentDidMount() {
-    console.log(this.props);
-  }
 
   render() {
     return (

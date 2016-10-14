@@ -1,5 +1,5 @@
 import React from 'react';
-import config from '../datas.json';
+import config from './datas.json';
 require('./greeter.scss');
 
 const greeter = () =>
