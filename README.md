@@ -23,7 +23,7 @@ module.exports = {
         localeDefault: 'fr_FR',
         server: {
             url: 'http://localhost',
-            port: 8080
+            port: 2323
         }
     }
 }
