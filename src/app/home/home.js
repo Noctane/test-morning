@@ -13,7 +13,7 @@ export default class Home extends Component {
   render() {
     return (
       <div ref="home" className="home">
-        Home:{this.props.isAuth}
+        <p>This is Home</p>
         <Greeter />
       </div>
     );
