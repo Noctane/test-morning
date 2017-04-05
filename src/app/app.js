@@ -1,5 +1,5 @@
-import React, { Component, PropTypes } from 'react';
-// import { AppBar } from 'react-toolbox/lib/app_bar';
+import React from 'react';
+
 require('./app.scss');
 
 const App = () => (
