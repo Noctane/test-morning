@@ -1,0 +1,43 @@
+footer {
+	background: #f1f1f1;
+	padding: 50px 0;
+
+	h4 {
+		color: #404A56;
+		font-size: 16px;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+	}
+}
+
+.footer {
+	display: flex;
+}
+
+.details {
+	flex: 1;
+	
+	p {
+		font-size: 14px;
+		color: #7F8894;
+		span {
+			text-decoration: underline;
+		}
+	}	
+}		
+
+.footer-nav {
+	display: flex;
+	flex: 2;
+	justify-content: space-around;
+
+	ul {
+		list-style: none;
+		li > a {
+			font-size: 14px;
+			color: #7F8894;
+			text-decoration: none;
+			line-height: 1.5;
+		}
+	}
+}

@@ -23,8 +23,15 @@ module.exports = {
         loader: 'style!css?modules'
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss)$/,
         loaders: ['style', 'css', 'sass']
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[hash].[ext]',
+        },
       }
     ]
   },

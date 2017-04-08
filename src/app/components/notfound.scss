@@ -1,0 +1,23 @@
+.notfound {
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.message {
+	width: 40%;
+	color: #fff;
+
+	h1 {
+		font-size: 48px;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: 18px;
+		> a {
+			color: #fff;
+		}
+	}
+}
