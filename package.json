@@ -38,6 +38,7 @@
   "dependencies": {
     "immutability-helper": "^2.0.0",
     "react": "^15.2.1",
+    "react-burger-menu": "^1.10.14",
     "react-dom": "^15.2.1",
     "react-responsive": "^1.2.7",
     "react-router": "^4.0.0",
