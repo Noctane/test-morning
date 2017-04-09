@@ -26,6 +26,17 @@ const Footer = React.createClass({
 							<Followus title="Suivez-nous" />
 						</div>
 					</div>
+					<div className="footer-mini">
+						
+						<div className="app-download">	
+							<a href="/applestore">
+								<img src={"img/Download_on_the_App_Store_Badge_FR_135x40.png"} alt="Download on the App store"/>
+							</a>
+						</div>
+						<div className="copy">
+							<p>&copy;Morning 2016</p>
+						</div>
+					</div>
 				</div>
 		</footer>
 	);

@@ -1,43 +1,74 @@
 footer {
-	background: #f1f1f1;
-	padding: 50px 0;
+  background: #f1f1f1;
+  padding: 50px 0;
 
-	h4 {
-		color: #404A56;
-		font-size: 16px;
-		text-transform: uppercase;
-		font-family: 'Montserrat', sans-serif;
-	}
+  h4 {
+    color: #404A56;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    font-size: 14px;
+    color: #7F8894;
+    span {
+      text-decoration: underline;
+    }
+  }
+
+  .footer {
+    display: flex;
+    @media(max-width: 425px) {
+      flex-direction: column;
+    }
+  }
+
+  .details {
+    flex: 1;
+  }
 }
-
-.footer {
-	display: flex;
-}
-
-.details {
-	flex: 1;
-	
-	p {
-		font-size: 14px;
-		color: #7F8894;
-		span {
-			text-decoration: underline;
-		}
-	}	
-}		
 
 .footer-nav {
-	display: flex;
-	flex: 2;
-	justify-content: space-around;
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+  @media(max-width: 425px) {
+    flex-direction: column;
+    margin-top: 20px;
+  }
 
-	ul {
-		list-style: none;
-		li > a {
-			font-size: 14px;
-			color: #7F8894;
-			text-decoration: none;
-			line-height: 1.5;
-		}
-	}
+  ul {
+    list-style: none;
+    @media(max-width: 425px) {
+      margin-bottom: 20px;
+    }
+    li > a {
+      font-size: 14px;
+      color: #7F8894;
+      text-decoration: none;
+      line-height: 1.5;
+    }
+  }
 }
+
+.footer-mini {
+  padding: 50px 0;
+  text-align: center;
+
+  .copy {
+    float: left;
+    @media(max-width: 425px) {
+      float: none;
+    }
+
+  }
+
+  .app-download {
+    float: right;
+    @media(max-width: 425px) {
+      float: none;
+    }
+  }
+}
+
+

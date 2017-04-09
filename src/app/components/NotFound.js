@@ -15,7 +15,7 @@ const NotFound = React.createClass({
 							Assurez-vous que l’adresse renseignée est bonne puis réessayez ultérieurement.</strong></p>
 
 							<p>En attendant, profitez-en pour découvrir <Link to="/lecompte">notre histoire</Link> ou rencontrer <Link to="/lecompte">notre équipe</Link>.
-								Si l’erreur persiste, contactez notre support clients par mail à <a href="mailto:good@morning.com"></a></p>
+								Si l’erreur persiste, contactez notre support clients par mail à <a href="mailto:good@morning.com">good@morning.com</a></p>
 					</div>
 				</div>
 			</div>

@@ -1,23 +1,35 @@
 .notfound {
-	height: 100vh;
-	background-size: cover;
-	display: flex;
-	align-items: center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  @media(max-width: 425px) {
+    height: auto;
+    padding: 100px 0;
+  }
 }
 
 .message {
-	width: 40%;
-	color: #fff;
+  width: 40%;
+  color: #fff;
+  @media(max-width: 1024px) {
+    width: 60%;
+  }
 
-	h1 {
-		font-size: 48px;
-		font-weight: 400;
-	}
+  @media(max-width: 425px) {
+    width: 100%;
+  }
 
-	p {
-		font-size: 18px;
-		> a {
-			color: #fff;
-		}
-	}
+  h1 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 18px;
+    > a {
+      color: #fff;
+    }
+  }
 }

@@ -8,3 +8,4 @@ src/config.js
 jsconfig.json
 .vscode/
 *.log
+.idea/

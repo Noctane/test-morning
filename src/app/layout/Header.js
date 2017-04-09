@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Authentication from '../components/Authentication';
 import Navigation from '../components/Navigation';
+import Logo from '../components/Logo';
+import MediaQuery from 'react-responsive';
 
 require('./header.scss');
 
@@ -9,15 +10,20 @@ const Header = React.createClass({
 	render() {
 		return (
 		<header>
-			<div className="logo">
-				<Link to="/">
-					<img src={"img/morningLogo.png"} alt="Logo"/>
-				</Link>
-			</div>
-			<div className="nav">
-				<Navigation />
+			<MediaQuery query='(min-device-width: 910px)'>
+				<Logo />
+				<div className="nav">
+					<Navigation />
+					<Authentication />
+				</div>
+			</MediaQuery>
+			<MediaQuery query='(max-device-width: 910px)'>
+				<Logo />
 				<Authentication />
-			</div>
+				<div className="nav">
+					<Navigation />
+				</div>
+			</MediaQuery>
 			
 		</header>
 	);
