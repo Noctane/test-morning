@@ -28,7 +28,10 @@ module.exports = {
     }
 }
 ```
-
+Swith to branch *test/arnaud_prat* and run (again) :
+```
+npm install
+```
 
 
 ## Roadmap
