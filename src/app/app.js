@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router,
 				  Route,
-				  Link,
-				  Switch } from 'react-router-dom';
+				  Link } from 'react-router-dom';
 
 import Layout from './Layout';
 import Hello from './components/Hello';
@@ -14,10 +13,8 @@ const App = () => (
   <div className="app">
     <Router>
 			<Layout>
-				<Switch>
-					<Route exact path="/" component={Hello} />
-					<Route component={NotFound} />
-				</Switch>	
+				<Route exact path="/" component={Hello} />
+				<Route component={NotFound} />
 			</Layout>
 		</Router>
 	</div>
